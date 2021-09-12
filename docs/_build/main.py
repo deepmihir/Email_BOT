@@ -43,7 +43,7 @@ email_list ={
 def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('alltechdeep@gmail.com','dk@1532@')
+    server.login('Your Email ID','password')
     email = EmailMessage()
     email['From'] = 'alltechdeep@gmail.com'
     email['To'] = receiver
