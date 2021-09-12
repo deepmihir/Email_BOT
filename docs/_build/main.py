@@ -3,8 +3,9 @@ Email BOT
 ----------------------------------------
 This is my simple email bot that interact with you with voice and listen to you.
 !! Note !!
-if you want to use this bot you need give permission to your google account.
-you need to import speech_recognition, PyAudio, pyttx
+if you want to use this bot you need give permission to from your google account.
+you need to import SpeechRecognition, PyAudio, pyttsx3
+
 """
 
 import smtplib
